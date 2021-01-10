@@ -3,7 +3,7 @@
 $host     = "localhost"; // Database Host
 $user     = "root"; // Database Username
 $password = ""; // Database's user Password
-$database = "test"; // Database Name
+$database = "city"; // Database Name
 
 //------------------------------------------------------------
 

@@ -131,6 +131,9 @@ if (isset($_SESSION["csspath"])) {
     <!-- Game CSS -->
     <link href="assets/css/game.css" rel="stylesheet">
 
+    <!--Custom CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
@@ -178,10 +181,10 @@ echo lang_key("register");
 
 
     <div class="container-fluid">
-
-        <div class="jumbotron">
-            <div class="row">
-                <div class="col-md-9">
+        <!-- <div class="main-bg"></div> -->
+        <div class="jumbotron ">
+            <div class="row ">
+                <div class="col-md-9 ">
                     <h1><i class="fa fa-building"></i> <i class="fa fa-car"></i> <i class="fa fa-users"></i> <?php
 echo $row['title'];
 ?></h1>
